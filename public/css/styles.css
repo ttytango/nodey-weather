@@ -1,0 +1,79 @@
+body {
+    background: rgb(221, 228, 219);
+    color: rgb(50, 73, 5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(28, 124, 4);
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.portrait {
+    /* margin: 0 auto; */
+}
+
+button {
+    cursor: pointer;
+    background: rgb(29, 27, 27);
+    color: antiquewhite;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color: rgb(97, 154, 173);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+}
+
+form>input,
+form>button {
+    font-size: 24px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+footer {
+    background: rgb(56, 52, 52);
+    text-align: center;
+    color: white;
+    position: relative;
+    border-top: 1px solid grey;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+
+/* .footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+} */
