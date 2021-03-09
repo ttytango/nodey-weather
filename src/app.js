@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const request = require('postman-request')
 const app = express()
+const port = process.env.PORT || 3333
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -77,6 +78,6 @@ app.get('*', (req, res) => {
     res.render('404', { title: '404 Error', message: "This page is not found", name: "Tim Simonson" })
 })
 
-app.listen(3333, () => {
-    console.log('listening on port 3333')
+app.listen(port, () => {
+    console.log('listening on port ' + port)
 })
